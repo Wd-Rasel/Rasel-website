@@ -1,0 +1,328 @@
+/* ========= tablet desing ========*/
+
+@media Only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header_top_left {
+    width: 68%;
+  }
+  .header_top_left ul li a {
+    padding: 32px 10px;
+  }
+  .header_top_right {
+    width: 28%;
+    padding-right: 2%;
+  }
+  .header_top_right ul li {
+    margin-left: 25px;
+  }
+  .inner_menu {
+    padding-top: 5px;
+  }
+  .inner_menu ul {
+    text-align: center;
+  }
+  .inner_menu ul li {
+    margin-right: 14px;
+  }
+  .inner_menu ul li a {
+    padding: 7px 0px;
+  }
+  .inner_main_header {
+    padding: 35px 0;
+    width: 96%;
+    margin: 0 2%;
+  }
+  .search_area {
+    padding-right: 12px;
+  }
+  .slide_caption {
+    padding: 80px 0px 80px 20px;
+    width: 38%;
+  }
+  .slide_caption h1 {
+    font-size: 33px;
+  }
+  .slide_img {
+    width: 56%;
+    padding-top: 20px;
+  }
+  .baner_pic {
+    width: 39%;
+    padding: 40px 0 0 5px;
+  }
+  .baner_pic img {
+    margin-top: 0;
+  }
+  .baner_caption {
+    width: 54%;
+    margin: 0 2%;
+    margin-top: 50px;
+  }
+  .mini_cap {
+    margin-left: -10px;
+  }
+  .mini_cap img {
+    height: 50px;
+  }
+  .mini_cap p {
+    text-align: justify;
+    font-size: 14px;
+  }
+  .contact_us_area {
+    width: 87%;
+  }
+  .contact_us_area h2 {
+    font-size: 28px;
+    font-weight: 400;
+  }
+  .contact_us_area p {
+    font-size: 15px;
+  }
+  .contact_us_area button {
+    font-size: 18px;
+  }
+  .footer_details {
+    width: 22%;
+    padding-left: 3px;
+  }
+  .footer_details:last-child {
+    width: 23%;
+  }
+  .underline_a {
+    padding-top: 2px;
+    margin-top: -20px;
+  }
+  .footer_details input[type="text"],
+  input[type="email"] {
+    padding: 8px 2%;
+    font-size: 14px;
+  }
+  .post_title h4 {
+    font-size: 15px;
+  }
+  .right_copy_right {
+    padding-right: 20px;
+  }
+  .left_copy_right {
+    padding-left: 7px;
+  }
+}
+
+/* =============Mobail phone design================ */
+
+@media Only screen and (min-width: 280px) and (max-width: 768px) {
+  .header_top_left {
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+  .header_top_left ul {
+    text-align: center;
+  }
+  .header_top_left ul li {
+    margin: 0;
+  }
+
+  .header_top_left ul li a {
+    padding: 20px 4px 5px;
+    font-size: 13px;
+  }
+  .header_top_right {
+    width: 100%;
+    padding: 5px 0;
+    float: none;
+  }
+  .header_top_right ul {
+    text-align: center;
+  }
+  .header_top_right ul li {
+    margin-left: 25px;
+  }
+  .header_top_right ul li a {
+    padding: 5px;
+  }
+  .header_top_right ul li a img {
+    width: 80%;
+  }
+  #menu_icon {
+    display: block;
+    float: right;
+    margin-top: 10px;
+  }
+  .hidden {
+    display: none;
+  }
+  .inner_menu {
+    padding-top: 0px;
+    min-height: auto;
+    margin-top: 30px;
+  }
+
+  .inner_menu ul li {
+    display: block;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 2px 2px 0 #333;
+    margin: 2px 0;
+  }
+  .inner_menu ul li ul li:hover {
+    margin-top: 10px;
+  }
+  .inner_menu ul li a {
+    padding: 10px 7px;
+    font-size: 13px;
+  }
+
+  .inner_main_header {
+    padding: 20px 0;
+  }
+  .logo_area {
+    width: 175px;
+    height: auto;
+  }
+  .logo_area a img {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  .search_area {
+    text-align: right;
+    float: none;
+  }
+  .search_area form input[type="text"] {
+    padding: 5px;
+    width: 140px;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  form input[type="submit"] {
+    font-size: 12px;
+    padding: 3px;
+  }
+  .slide_caption {
+    width: 100%;
+    float: none;
+    padding: 0px 2px;
+  }
+  .slide_caption h1 {
+    font-size: 30px;
+  }
+
+  .slide_caption p {
+    font-size: 25px;
+  }
+  button {
+    font-size: 13px;
+    padding: 5px;
+    float: right;
+  }
+  .slide_img {
+    float: none;
+    padding: 4px;
+    width: 100%;
+    height: 375px;
+    border: none;
+    box-shadow: 0 2px 4px 0 #222;
+  }
+
+  .baner_pic {
+    position: relative;
+    left: 75px;
+    width: 60%;
+    height: 50%;
+  }
+  .baner_pic img {
+    margin-top: 0;
+  }
+  .baner_caption {
+    float: none;
+    width: 100%;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+  }
+  .mini_cap {
+    width: 100%;
+    margin: 0px;
+  }
+  .mini_cap img {
+    height: 50px;
+  }
+  .mini_cap a h2 {
+    font-size: 16px;
+  }
+  .mini_cap a p {
+    font-size: 16px;
+  }
+
+  .contact_us_area {
+    width: 89%;
+    padding: 10px;
+    border-left: 5px solid #009aff;
+  }
+  .contact_us_area h2 {
+    font-size: 25px;
+  }
+  .contact_us_area p {
+    font-size: 25px;
+  }
+
+  .contact_us_area button {
+    margin: 0;
+    padding: 5px;
+    font-size: 15px;
+  }
+  .inner_footer {
+    grid-template-columns: auto;
+    display: grid;
+    width: 95%;
+    padding: 0 1%;
+  }
+  .footer_details {
+    width: 96%;
+    float: none;
+    margin: 0 2%;
+  }
+  .footer_details img {
+    padding-top: 10px;
+  }
+  .footer_details p {
+    font-size: 25px;
+  }
+  .quick_links li {
+    text-align: center;
+  }
+  .underline_a {
+    padding: 5px 0;
+  }
+  .post_title h4 {
+    font-size: 15px;
+  }
+  .post_title:last-child {
+    padding-top: 25px;
+  }
+  .footer_details textarea {
+    font-size: 14px;
+  }
+  input[type="email"] {
+    font-size: 14px;
+  }
+  .footer_details input[type="submit"] {
+    font-size: 14px;
+    margin: 5px 0;
+    float: right;
+  }
+  .left_copy p {
+    padding: 0;
+  }
+  .left_copy_right p span {
+    font-size: 14px;
+  }
+  .left_copy_right p {
+    text-align: center;
+    padding: 0 2px;
+  }
+  .right_copy_right p {
+    margin-top: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+}
