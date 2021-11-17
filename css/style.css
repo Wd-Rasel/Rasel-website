@@ -200,11 +200,11 @@ form input[type="submit"]:hover {
   opacity: 0.7;
 }
 .inner_menu {
-  padding-top: 30px;
+  padding-top: 10px;
   min-height: 30px;
   border-bottom: 5px solid #f0f0f0;
   font-family: "Unna", serif;
-  background-color: #d35400;
+  background-color: #535c68;
 }
 
 .inner_menu ul {
