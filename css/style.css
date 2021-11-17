@@ -105,14 +105,13 @@ form input[type="submit"]:hover {
 .header_area {
   width: 100%;
   clear: both;
+  position: fixed;
+  z-index: 10;
 }
 
 #top_header_area {
   background: #2e2e2e;
   width: 100%;
-  position: fixed;
-  z-index: 10;
- 
 }
 
 .inner_header {
@@ -191,9 +190,6 @@ form input[type="submit"]:hover {
 #main_menu {
   width: 100%;
   clear: both;
-  position: relative;
-  top: 70px;
-  margin-bottom: 60px;
 }
 #menu_icon {
   display: none;
@@ -208,6 +204,7 @@ form input[type="submit"]:hover {
   min-height: 30px;
   border-bottom: 5px solid #f0f0f0;
   font-family: "Unna", serif;
+  background-color: #ff00ff;
 }
 
 .inner_menu ul {
@@ -228,7 +225,7 @@ form input[type="submit"]:hover {
 }
 
 .inner_menu ul li a {
-  color: black;
+  color: #fff;
   text-decoration: none;
   padding: 7px 5px;
   font-size: 15px;
@@ -313,6 +310,9 @@ form input[type="submit"]:hover {
 #main_header_area {
   width: 100%;
   clear: both;
+  position: relative;
+  top: 90px;
+  margin-bottom: 60px;
 }
 
 .inner_main_header {
