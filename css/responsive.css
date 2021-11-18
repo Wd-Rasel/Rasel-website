@@ -154,6 +154,9 @@
   .hidden {
     display: none;
   }
+   #main_header_area {
+    padding-top: 25px;
+  }
   .inner_menu {
     padding-top: 0px;
     min-height: auto;
@@ -313,17 +316,15 @@
     margin: 5px 0;
     float: right;
   }
-  .left_copy p {
-    padding: 0;
-  }
-  .left_copy_right p span {
+  
+  .left_copy_right h6 span {
     font-size: 14px;
   }
-  .left_copy_right p {
+  .left_copy_right h6 {
     text-align: center;
     padding: 0 2px;
   }
-  .right_copy_right p {
+  .right_copy_right h6 {
     margin-top: 0px;
     padding: 0px;
     text-align: center;
