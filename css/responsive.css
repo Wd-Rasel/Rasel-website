@@ -16,6 +16,7 @@
   }
   .inner_menu {
     padding-top: 5px;
+    border-bottom: none;
   }
   .inner_menu ul {
     text-align: center;
